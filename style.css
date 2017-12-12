@@ -58,7 +58,7 @@ inline {
     transition: 0.3s;
 }
 .btn-primary {
-    background-color: #b30059; /* #b30059, #3939ac not bad*/
+    background-color: #b30059;
     border: 2px solid #b30059;
     color: #fff;
     padding: 6px 30px;
@@ -68,7 +68,6 @@ inline {
     color: #fff;
     border-color: #c6436e;
 }
-/* make a class instead? */
 .btn-primary,
 .skill-list li,
 .quote-avatar,
@@ -128,33 +127,21 @@ textarea {
     width: 100px;
     height: 48px;
 }
-/*
-nav.change-color {
-    background-color: #e6e6e6; 
-    transition: 0.3s;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-}
-*/
 .nav-link {
-    color: #4d4d4d; /*#f2f2f2*/
-/*    border-bottom: 1px solid #f2f2f2;*/
+    color: #4d4d4d;
     margin-right: 10px;
 }
 .nav-link:hover {
     color: #b30059;
-/*    border-color: #4d4d4d;*/
 }
 .nav-link.change-color {
     color: #b30059;
-/*    border-color: #b30059;*/
     transition: 0.3s;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
 }
 .nav-link.change-color:hover {
     color: #4d4d4d;
-/*    border-color: #4d4d4d;*/
 }
 .color-highlight {
     color: #b30059;
@@ -264,7 +251,6 @@ nav.change-color {
     position: relative;
 }
 .skill-list li:hover {
-/*    background-color: #e6e6e6;*/
     border-color: #b30059;
     color: #b30059;
     left: 10px;
@@ -273,7 +259,6 @@ nav.change-color {
 #quote-section {
     padding: 100px 0 100px 0;
     background-color: #e6e6e6;
-/*    margin-bottom: 50px;*/
 }
 .quote {
     font-size: 1.5em;
@@ -320,7 +305,7 @@ footer p {
     font-size: 1.5em;
 }
 .social-link .fa {
-    color: #f2f2f2; /* refactor, either make a class for the color or group the declarations */
+    color: #f2f2f2;
 }
 .social-link {
     margin-right: 20px;
@@ -333,11 +318,6 @@ footer p {
 }
 /**** MEDIA QUERRIES ****/
 @media screen and ( max-width : 568px) {
-/*
-    .navbar {
-        background-color: #e6e6e6;
-    }
-*/
     .preview-text {
         margin-top: 20px;
     }
